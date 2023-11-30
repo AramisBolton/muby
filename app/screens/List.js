@@ -2,9 +2,12 @@ import { View, Text, Button, Image, ScrollView, StyleSheet } from 'react-native'
 import React from 'react'
 import { FIREBASE_APP, FIREBASE_AUTH } from '../../FirebaseConfig'
 import data from '../../json/info.json'
+import { useNavigation } from '@react-navigation/native'
 
 
 const List = ({nav}) => {
+
+  const navigation = useNavigation()
   return (
     <View>
       <ScrollView>
