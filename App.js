@@ -13,7 +13,7 @@ const InsideStack = createNativeStackNavigator();
 function InsideLayout() {
   return (
     <InsideStack.Navigator>
-      <InsideStack.Screen name='Inside' component={List} />
+      <InsideStack.Screen name='Peliculas' component={List} />
       <InsideStack.Screen name='Details' component={Details} />
     </InsideStack.Navigator>
   )
